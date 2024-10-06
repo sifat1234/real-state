@@ -1,3 +1,4 @@
+import LogoPic from "./LogoPic";
 import Button from "./Button";
 import { FAQcircleSvg1, FAQcircleSvg2 } from "./CirclesSvg";
 import FaqContent from "./FaqContent";
@@ -7,7 +8,6 @@ import { ctaSectionSVGdata, pathsdata as data, teamMemberSectionSVGdata, yearofe
 
 
 import Featuresproperties from "./Featuresproperties";
-import LogoPic from "./LogoPic";
 
 
 

@@ -1,6 +1,7 @@
+import LogoPic from "./LogoPic";
 import Button from "./Button";
 import CirclesSvg from "./CirclesSvg";
-import LogoPic from "./LogoPic";
+
 
 function NavbarSection() {
   return (
