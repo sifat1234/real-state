@@ -100,6 +100,7 @@ export function YearofexpericenceSvg({
 }
 
 
+// eslint-disable-next-line react/prop-types
 export function CtaSectionSVG ({ width, height,xmlns, viewBox, fill, className, elements=[] }){
   return (
     <svg width={width}

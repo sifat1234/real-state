@@ -2,7 +2,7 @@ import Button from "./Button";
 import { FAQcircleSvg1, FAQcircleSvg2 } from "./CirclesSvg";
 import FaqContent from "./FaqContent";
 
-import { pathsdata as data, CtaSectionSVGdata, TeamMemberSectionSVGdata, YearofexpericenceSvgPathData } from "./pathsData";
+import { ctaSectionSVGdata, pathsdata as data, teamMemberSectionSVGdata, yearofexpericenceSvgPathData } from "./PathsData";
 
 
 
@@ -163,7 +163,7 @@ function AboutSection() {
                             viewBox="0 0 106 144"
                             fill="none"
                             xmlns="http://www.w3.org/2000/svg"
-                            elements={YearofexpericenceSvgPathData[0]}
+                            elements={yearofexpericenceSvgPathData[0]}
                           />
                         </span>
                         <span className="absolute right-0 top-0 -z-10">
@@ -173,7 +173,7 @@ function AboutSection() {
                             viewBox="0 0 130 97"
                             fill="none"
                             xmlns="http://www.w3.org/2000/svg"
-                            elements={YearofexpericenceSvgPathData[1]}
+                            elements={yearofexpericenceSvgPathData[1]}
                           />
                         </span>
                         <span className="absolute bottom-0 right-0 -z-10">
@@ -183,7 +183,7 @@ function AboutSection() {
                             viewBox="0 0 175 104"
                             fill="none"
                             xmlns="http://www.w3.org/2000/svg"
-                            elements={YearofexpericenceSvgPathData[2]}
+                            elements={yearofexpericenceSvgPathData[2]}
                           />
                         </span>
                       </div>
@@ -237,7 +237,7 @@ function CtaSection() {
               viewBox="0 0 495 470"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
-              elements={CtaSectionSVGdata[0]}
+              elements={ctaSectionSVGdata[0]}
             />
           </span>
           <span className="absolute bottom-0 right-0">
@@ -247,7 +247,7 @@ function CtaSection() {
               viewBox="0 0 493 470"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
-              elements={CtaSectionSVGdata[1]}
+              elements={ctaSectionSVGdata[1]}
             />
           </span>
         </div>
@@ -346,7 +346,7 @@ function TeamMemberSection() {
                         viewBox="0 0 55 53"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
-                        paths={TeamMemberSectionSVGdata[0]}
+                        paths={teamMemberSectionSVGdata[0]}
                       />
                     </span>
                   </div>
@@ -458,7 +458,7 @@ function ContactSection() {
                 <form>
                   <div className="mb-[22px]">
                     <label
-                      for="fullName"
+                      htmlFor="fullName"
                       className="mb-4 block text-sm text-body-color dark:text-dark-6"
                     >
                       Full Name*
@@ -472,7 +472,7 @@ function ContactSection() {
                   </div>
                   <div className="mb-[22px]">
                     <label
-                      for="email"
+                      htmlFor="email"
                       className="mb-4 block text-sm text-body-color dark:text-dark-6"
                     >
                       Email*
@@ -486,7 +486,7 @@ function ContactSection() {
                   </div>
                   <div className="mb-[22px]">
                     <label
-                      for="phone"
+                      htmlFor="phone"
                       className="mb-4 block text-sm text-body-color dark:text-dark-6"
                     >
                       Phone*
@@ -500,7 +500,7 @@ function ContactSection() {
                   </div>
                   <div className="mb-[30px]">
                     <label
-                      for="message"
+                      htmlFor="message"
                       className="mb-4 block text-sm text-body-color dark:text-dark-6"
                     >
                       Message*

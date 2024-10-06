@@ -199,7 +199,7 @@ export const pathsdata = [
 
 ];
 
-export const YearofexpericenceSvgPathData=[
+export const yearofexpericenceSvgPathData=[
    [
       {
         type: "rect",
@@ -291,7 +291,7 @@ export const YearofexpericenceSvgPathData=[
 
 
 
- export const CtaSectionSVGdata = [
+ export const ctaSectionSVGdata = [
   [
     {
       type: "circle",
@@ -351,7 +351,7 @@ export const YearofexpericenceSvgPathData=[
 ];
 
 
-export const TeamMemberSectionSVGdata = [
+export const teamMemberSectionSVGdata = [
 [
 
   {
