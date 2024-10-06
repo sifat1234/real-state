@@ -11,7 +11,7 @@ export default function Footer() {
         <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-4/12 xl:w-3/12">
           <div className="mb-10 w-full">
             <a href="javascript:void(0)" className="mb-6 inline-block  max-h-[100px]">
-            <LogoPic src="/src/assets/images/logo/logo.svg"  alt="logo" className="max-w-full" />
+            <LogoPic src="/images/logo/logo.svg"  alt="logo" className="max-w-full" />
 
            
             </a>
@@ -123,7 +123,7 @@ export default function Footer() {
             <div className="flex flex-col gap-8">
               <a href="blog-details.html" className="group flex items-center gap-[22px]">
                 <div className="overflow-hidden rounded">
-                <LogoPic src="/src/assets/images/blog/blog-footer-01.jpg" alt="blog"/>
+                <LogoPic src="/images/blog/blog-footer-01.jpg" alt="blog"/>
 
                 </div>
                 <span className="max-w-[180px] text-base text-gray-7 group-hover:text-white">
@@ -132,7 +132,7 @@ export default function Footer() {
               </a>
               <a href="blog-details.html" className="group flex items-center gap-[22px]">
                 <div className="overflow-hidden rounded">
-                <LogoPic src="/src/assets/images/blog/blog-footer-02.jpg" alt="blog"/>
+                <LogoPic src="/images/blog/blog-footer-02.jpg" alt="blog"/>
 
                 </div>
                 <span className="max-w-[180px] text-base text-gray-7 group-hover:text-white">
