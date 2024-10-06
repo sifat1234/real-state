@@ -2,7 +2,7 @@ import Button from "./Button";
 import { FAQcircleSvg1, FAQcircleSvg2 } from "./CirclesSvg";
 import FaqContent from "./FaqContent";
 
-import { pathsdata as data, CtaSectionSVGdata, TeamMemberSectionSVGdata, YearofexpericenceSvgPathData } from "./Pathsdata";
+import { pathsdata as data, CtaSectionSVGdata, TeamMemberSectionSVGdata, YearofexpericenceSvgPathData } from "./pathsData";
 
 
 
