@@ -15,7 +15,7 @@ function NavbarSection() {
                 className="navbar-logo block w-60 max-w-full px-4"
               >
                 <LogoPic
-                  src="/src/assets/images/logo/logo.svg"
+                  src="/images/logo/logo.svg"
                   alt="logo"
                   className="header-logo h-12"
                 />
@@ -118,7 +118,7 @@ function HeroSection() {
               <div className=" relative z-10 mx-auto max-w-[845px]">
                 <div className="mt-16">
                   <LogoPic
-                    src="/src/assets/images/hero/hero-image.png"
+                    src="/images/hero/hero-image.png"
                     alt="hero"
                     className="mx-auto max-w-full rounded-t-xl rounded-tr-xl"
                   />

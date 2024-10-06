@@ -4,7 +4,7 @@ export const teamMembers = [
   {
     name: "Melissa Tatcher",
     role: "Marketing Expert",
-    imageSrc: "/src/assets/images/team/team-01.png",
+    imageSrc: "/images/team/team-01.png",
     svgPaths: [data[13], data[14], data[15]],
   },
   {
